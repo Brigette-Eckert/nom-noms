@@ -1,0 +1,37 @@
+name: 'Gratis'
+description: 'Gratis is a flat design, and responsive Drupal 8 theme by <a href="http://dannyenglander.com">Danny Englander</a> and <a href="https://www.drupal.org/u/pravin-ajaaz">Pravin Ajaaz</a>'
+type: theme
+# core: '8.x'
+screenshot: screenshot.png
+base theme: classy
+
+libraries:
+  - gratis/global-styling
+  - gratis/gratis-corescripts
+# Override a CSS file:
+stylesheets-remove:
+  - system.theme.css
+regions:
+   footer_first: 'Footer first'
+   footer_second: 'Footer Second'
+   footer_third: 'Footer Third'
+   top_links: 'Top Links'
+   primary_menu: 'Primary menu'
+   thirdparty_menu: 'Third party menu'
+   preface_first: 'Preface first'
+   preface_second: 'Preface second'
+   preface_third: 'Preface third'
+   full_width_highlight: 'Full width highlight'
+   help: 'Help'
+   sidebar_first: 'Sidebar First'
+   sidebar_second: 'Sidebar Second'
+   content: 'Content'
+   postscript_first: 'Postscript first'
+   postscript_second: 'Postscript second'
+   postscript_third: 'Postscript third'
+
+# Information added by Drupal.org packaging script on 2018-03-14
+version: '8.x-3.0-alpha1'
+core: '8.x'
+project: 'gratis'
+datestamp: 1521028986
